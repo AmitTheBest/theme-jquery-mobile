@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title><?page_title?>Agile Toolkit - jQuery Mobile Theme by Bozims Ltd.<?/?></title> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="<?template?>images/favicon.ico<?/?>" type="image/x-icon" />
+        <?$js_include?>
+        
+        <link href="<?template?>css/jquery.mobile-1.3.2.css<?/template?>" media="screen" rel="stylesheet" type="text/css"/>
+        <script src="<?template?>js/jquery.mobile-1.3.2.min.js<?/template?>"></script>
+
+        <script src="<?template?>js/responsivemobilemenu.js<?/template?>"></script>
+        <link href="<?template?>css/bozims.css<?/template?>" media="screen" rel="stylesheet" type="text/css"/>
+        <link href="<?template?>css/responsivemobilemenu.css<?/template?>" media="screen" rel="stylesheet" type="text/css"/>
+		
+
+		<script type="text/javascript">
+			$(function(){
+				<?$document_ready?>
+			});
+		</script>
+	</head>
+	<body>
+        <div data-role="page">
+
+            <div data-role="header">
+                <h1><?$app_name?></h1>
+            </div><!-- /header -->
+
+            <div data-role="content">   
+                <?$Menu?>
+                <br />
+                <?$Content?>
+             
+            </div><!-- /content -->
+            
+            <div data-role="footer">
+
+                <div data-role="navbar">
+                   
+                   
+                    
+                </div><!-- /navbar -->
+                <h4><?$footer?></h4>
+            </div><!-- /footer -->
+            
+        </div><!-- /page -->
+
+<div class="navbar navbar-fixed-top">
+    <a class="navbar-brand" href="<?page?>/<?/?>"><?app_name?>My Admin<?/?></a>
+    
+    
+</div>
+
+
+    <div class="col-lg-9">
+        <?$Content?>
+    </div>
+</div>
+</body>
+</html>
