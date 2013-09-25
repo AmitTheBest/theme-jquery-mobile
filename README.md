@@ -3,7 +3,7 @@ theme-jquerymobile
 
 Implements jquerymobile 3 integration for Agile Toolkit.
 
-![image](screenshot.PNG)
+![image](screenshot.png)
 
 Installation
 ----
